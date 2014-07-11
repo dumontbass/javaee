@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ProjetoZero-web:war">
+    <output-path>$PROJECT_DIR$/ProjetoZero-web/target</output-path>
+    <root id="archive" name="ProjetoZero-web-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ProjetoZero-web:war exploded" />
+    </root>
+  </artifact>
+</component>

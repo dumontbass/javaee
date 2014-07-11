@@ -7,6 +7,7 @@
 package br.org.base.model;
 
 import java.io.Serializable;
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -18,12 +19,14 @@ import javax.persistence.NamedQuery;
  * @author guilherme
  */
 @Entity
-@NamedQuery(name = "findAllModel01", query = "SELECT e FROM Model01 e")
+@NamedQuery(name = "findAllModel01", query = "SELECT e FROM Model01 e WHERE e.nome LIKE :param")
 public class Model01 implements Serializable {
     private static final long serialVersionUID = 1L;
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+    
+    @Column(name ="NOME")
     private String nome;
 
     public Long getId() {

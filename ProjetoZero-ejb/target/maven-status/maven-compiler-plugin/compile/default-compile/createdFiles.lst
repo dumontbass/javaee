@@ -1,4 +1,7 @@
+br/org/base/model/User_.class
 br/org/base/bean/Bean01Local.class
-br/org/base/model/Model01_.class
+br/org/base/auth/AuthenticationBean.class
 br/org/base/bean/Bean01.class
+br/org/base/model/User.class
+br/org/base/model/Model01_.class
 br/org/base/model/Model01.class

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="ProjetoZero-ejb:ejb">
+    <output-path>$PROJECT_DIR$/ProjetoZero-ejb/target</output-path>
+    <root id="archive" name="ProjetoZero-ejb-1.0-SNAPSHOT.jar">
+      <element id="artifact" artifact-name="ProjetoZero-ejb:ejb exploded" />
+    </root>
+  </artifact>
+</component>

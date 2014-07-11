@@ -42,7 +42,7 @@ public class Bean01 implements Bean01Local {
 
     public List<Model01> lista() {
 
-        TypedQuery<Model01> query = em.createNamedQuery("findAllModel01", Model01.class);
+        TypedQuery<Model01> query = em.createNamedQuery("findAllModel01", Model01.class).setParameter("param", "a");
         return query.getResultList();
     }
 

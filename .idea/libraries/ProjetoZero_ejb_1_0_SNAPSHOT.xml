@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ProjetoZero-ejb-1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ProjetoZero-ejb/target/ProjetoZero-ejb-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ProjetoZero.iml" filepath="$PROJECT_DIR$/ProjetoZero.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProjetoZero-ear/ProjetoZero-ear.iml" filepath="$PROJECT_DIR$/ProjetoZero-ear/ProjetoZero-ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProjetoZero-ejb/ProjetoZero-ejb.iml" filepath="$PROJECT_DIR$/ProjetoZero-ejb/ProjetoZero-ejb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProjetoZero-web/ProjetoZero-web.iml" filepath="$PROJECT_DIR$/ProjetoZero-web/ProjetoZero-web.iml" />
+    </modules>
+  </component>
+</project>
+

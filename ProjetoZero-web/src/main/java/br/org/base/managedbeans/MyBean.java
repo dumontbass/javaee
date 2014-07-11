@@ -5,16 +5,20 @@
  */
 package br.org.base.managedbeans;
 
+import br.org.base.bean.Bean01Local;
 import br.org.base.model.Model01;
 import java.util.List;
-import javax.ejb.EJB;
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.SessionScoped;
 import javax.inject.Inject;
+import javax.inject.Named;
 
 /**
  *
  * @author guilherme
  */
-@javax.annotation.ManagedBean
+@ManagedBean(name = "myBean")
+@SessionScoped
 public class MyBean {
     
     
@@ -22,10 +26,10 @@ public class MyBean {
     /*  Fields          */
     /*==================*/
     @Inject
-    private br.org.base.bean.Bean01Local bean01;
+    private Bean01Local bean01;
     private List<Model01> modelList;
     private double num;
-    private String oi;
+    private String oi = "";
     
     /*==================*/
     /*  Constructors    */
@@ -41,6 +45,10 @@ public class MyBean {
     public List<Model01> getEmployeeList() {
         modelList = bean01.lista();
         return modelList;
+    }
+    
+    public void metodo(){
+        setOi("oiiiiiiiiiiiiiiiiiiiiiiii");
     }
     
     /*==================*/
